@@ -1,4 +1,5 @@
 set.seed(42)
+library(dplyr)
 
 sequence1 <- 1:1000
 sequence2 <- sequence1 + rnorm(length(sequence1), mean = 0, sd = 0.1)
